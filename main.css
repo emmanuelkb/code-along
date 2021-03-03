@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  /* background-color: turquoise; */
+  font-size: 1.5rem;
+  height: 90px;
+  padding-left: 1rem;
+}
+
+body {
+  width: 100vw;
+  font-size: 10px;
+}
+.main {
+  background-image: url("city_driver.svg");
+  background-position: right;
+  height: 80vh;
+  font-size: 1.5rem;
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
